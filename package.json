@@ -1,0 +1,17 @@
+{
+  "name": "evm-chain-directory",
+  "version": "0.1.0",
+  "description": "Offline EVM chain directory with RPC verification",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.ts",
+    "build": "tsc",
+    "test": "node --test \"src/**/*.test.ts\""
+  },
+  "engines": { "node": ">=22.18" },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^7.0.2"
+  }
+}
